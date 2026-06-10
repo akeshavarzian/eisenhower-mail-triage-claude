@@ -1,4 +1,4 @@
-# eisenhower-mail-triage aestate
+# eisenhower-mail-triage 
 
 Ein **Claude-Skill**, der E-Mails nach der Eisenhower-Matrix klassifiziert und
 das Ergebnis als versandfertige HTML-Mail ausgibt — gebaut als Arbeitsprobe
