@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-06-10T09:30+02:00",
+  "emails": [
+    {
+      "id": "email-01-wassereintritt",
+      "from": "bauleitung@md-baumanagement.ch",
+      "subject": "DRINGEND: Wassereintritt Baustelle Oberrieden, Attika-Geschoss",
+      "date": "Tue, 09 Jun 2026 07:42:11 +0200",
+      "quadrant": "q1",
+      "confidence": 0.97,
+      "rationale": "Aktiver Wasserschaden im ausgebauten Geschoss gefährdet den Übergabetermin an die Käufer — Schaden und Terminrisiko wachsen stündlich, der Entscheid (Trocknung vs. Ersatz) ist Chefsache.",
+      "suggested_action": "Sofort Bauleitung zurückrufen, Notdienst freigeben und Vorgehen Trocknung vs. Ersatz heute entscheiden."
+    },
+    {
+      "id": "email-02-partnervertrag",
+      "from": "c.steiner@steiner-rechtsanwaelte.ch",
+      "subject": "Projekt Seehalde – Entwurf Partnervertrag zur Durchsicht (Frist 30.06.)",
+      "date": "Mon, 08 Jun 2026 16:05:33 +0200",
+      "quadrant": "q2",
+      "confidence": 0.93,
+      "rationale": "Geänderte Haftungsklauseln in einem TU-Vertrag über CHF 24 Mio. sind klar wichtig; die Frist am 30.06. lässt drei Wochen Zeit — die Substanz steckt im (hier nicht gelesenen) Anhang.",
+      "suggested_action": "Review-Termin mit Geschäftsleitung diese Woche einplanen, Fokus auf Ziff. 7 und Anhang B."
+    },
+    {
+      "id": "email-03-liftabnahme",
+      "from": "service@liftag-zuerich.ch",
+      "subject": "Terminbestätigung erforderlich: Lift-Endabnahme Baustelle Seehalde, heute 14:00",
+      "date": "Tue, 09 Jun 2026 08:10:02 +0200",
+      "quadrant": "q3",
+      "confidence": 0.88,
+      "rationale": "Antwort bis 11:00 nötig (dringend), aber eine Terminbestätigung kann jede Person mit Kalenderzugriff erledigen — die Abnahme selbst macht ohnehin die Bauleitung.",
+      "suggested_action": "An Bauleitung delegieren: Termin bestätigen und Maschinenraum-Zugang sicherstellen."
+    }
+  ]
+}

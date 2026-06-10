@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}</title>
+</head>
+<!--
+  Email-client-safe markup: table-based layout, all styles inline,
+  no external resources. Renders in Outlook, Gmail and Apple Mail.
+-->
+<body style="margin:0; padding:0; background-color:#f0f2f5; font-family:Arial, Helvetica, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f0f2f5;">
+    <tr>
+      <td align="center" style="padding:24px 12px;">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px; width:100%;">
+
+          <!-- Header: aestate CI. Text wordmark instead of the SVG logo —
+               Outlook does not render SVG and often blocks remote images. -->
+          <tr>
+            <td style="background-color:#16181d; border-radius:8px 8px 0 0; padding:26px 28px;">
+              <div style="color:#ffffff; font-size:24px; letter-spacing:3px; font-family:Georgia, 'Times New Roman', serif;">aestate</div>
+              <div style="color:#ffffff; font-size:17px; font-weight:bold; padding-top:14px;">{{TITLE}}</div>
+              <div style="color:#a7adb8; font-size:13px; padding-top:4px;">{{SUBTITLE}}</div>
+            </td>
+          </tr>
+
+          <!-- Summary strip -->
+          <tr>
+            <td style="background-color:#ffffff; padding:16px 28px; border-bottom:1px solid #e4e8ee;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  {{SUMMARY_CELLS}}
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Quadrant sections -->
+          {{QUADRANT_SECTIONS}}
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color:#ffffff; border-radius:0 0 8px 8px; padding:16px 28px;">
+              <div style="color:#8a94a6; font-size:11px;">
+                Automatisch erstellt mit dem Skill <strong>eisenhower-mail-triage</strong> &middot; {{GENERATED_AT}}
+              </div>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
